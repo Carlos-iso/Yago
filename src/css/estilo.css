@@ -154,7 +154,7 @@ header{
 /* Itens Navbar */
 
 main{
-    background: url("/src/img/456548.jpg") no-repeat center center;
+    background: url("456548.jpg") no-repeat center center;
     background-size: cover;
     height: 92vh;
 }
