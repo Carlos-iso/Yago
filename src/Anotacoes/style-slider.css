@@ -1,0 +1,33 @@
+main{
+    background: url("./fundo.jpg") no-repeat center center;
+    background-size: cover;
+    height: 150vh;
+}
+
+#img{
+    max-width: 100%;
+    display: flex;
+}
+
+.slider{
+    max-width: 380px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.slide-items{
+    position: relative;
+}
+
+.slide-items > *{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.slide-items .active{
+    position: relative;
+    opacity: 1;
+    pointer-events: initial;
+}
